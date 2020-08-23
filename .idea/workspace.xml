@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,13 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b06c1b4b-aad4-4df7-9d49-1d5bc47a447e" name="Default Changelist" comment="Am sters rutele default">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FindEvents.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FindEvents.iml" afterDir="false" />
+    <list default="true" id="b06c1b4b-aad4-4df7-9d49-1d5bc47a447e" name="Default Changelist" comment="&#10;i added gates for admin in edit and delete&#10;i added the gates for general route">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,11 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="draghicimariangeany" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="FindEventsFinal" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -163,13 +168,18 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/users" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Laravel-Projects\FindEvents\resources\views\admin\users" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -178,6 +188,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b06c1b4b-aad4-4df7-9d49-1d5bc47a447e" name="Default Changelist" comment="" />
@@ -203,7 +216,56 @@
       <option name="project" value="LOCAL" />
       <updated>1598139001807</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="manage users view added but not finished">
+      <created>1598194471296</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598194471296</updated>
+    </task>
+    <task id="LOCAL-00004" summary="i added roles migration">
+      <created>1598194848747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598194848747</updated>
+    </task>
+    <task id="LOCAL-00005" summary="i added roles migration with seed">
+      <created>1598195904618</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598195904618</updated>
+    </task>
+    <task id="LOCAL-00006" summary="i added roles migration with seed &#10;and view users table">
+      <created>1598196386713</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598196386713</updated>
+    </task>
+    <task id="LOCAL-00007" summary="i added roles migration with seed &#10;and view users table &#10;i added also delete functionality">
+      <created>1598198943598</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598198943598</updated>
+    </task>
+    <task id="LOCAL-00008" summary="&#10;i added gates for admin in edit and delete">
+      <created>1598201583615</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598201583617</updated>
+    </task>
+    <task id="LOCAL-00009" summary="&#10;i added gates for admin in edit and delete&#10;i added the gates for general route">
+      <created>1598201848446</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598201848446</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,11 +281,19 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Am sters rutele default" />
-    <option name="LAST_COMMIT_MESSAGE" value="Am sters rutele default" />
+    <MESSAGE value="manage users view added but not finished" />
+    <MESSAGE value="i added roles migration" />
+    <MESSAGE value="i added roles migration with seed" />
+    <MESSAGE value="i added roles migration with seed &#10;and view users table" />
+    <MESSAGE value="i added roles migration with seed &#10;and view users table &#10;i added also delete functionality" />
+    <MESSAGE value="&#10;i added gates for admin in edit and delete" />
+    <MESSAGE value="&#10;i added gates for admin in edit and delete&#10;i added the gates for general route" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;i added gates for admin in edit and delete&#10;i added the gates for general route" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598138539679">
@@ -242,9 +312,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598185956553" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598138678121">
+    <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598195540457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598138678121" />
+    <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1598195540457" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598202063593">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598202063593" />
   </component>
 </project>
