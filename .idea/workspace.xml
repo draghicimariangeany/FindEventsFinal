@@ -22,10 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b06c1b4b-aad4-4df7-9d49-1d5bc47a447e" name="Default Changelist" comment="&#10;i added gates for admin in edit and delete&#10;i added the gates for general route">
+    <list default="true" id="b06c1b4b-aad4-4df7-9d49-1d5bc47a447e" name="Default Changelist" comment="&#10;i added gates for admin in edit and delete&#10;i added the gates for general route&#10;i hided the links for others roles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598201848446</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&#10;i added gates for admin in edit and delete&#10;i added the gates for general route&#10;i hided the links for others roles">
+      <created>1598202147198</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598202147198</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +301,8 @@
     <MESSAGE value="i added roles migration with seed &#10;and view users table &#10;i added also delete functionality" />
     <MESSAGE value="&#10;i added gates for admin in edit and delete" />
     <MESSAGE value="&#10;i added gates for admin in edit and delete&#10;i added the gates for general route" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;i added gates for admin in edit and delete&#10;i added the gates for general route" />
+    <MESSAGE value="&#10;i added gates for admin in edit and delete&#10;i added the gates for general route&#10;i hided the links for others roles" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;i added gates for admin in edit and delete&#10;i added the gates for general route&#10;i hided the links for others roles" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598138539679">
@@ -308,17 +317,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="455" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598138768495" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1598185956553">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1598202245368">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598185956553" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598202245368" />
     <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598195540457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1598195540457" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598202063593">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598203445387">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598202063593" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598203445387" />
   </component>
 </project>
