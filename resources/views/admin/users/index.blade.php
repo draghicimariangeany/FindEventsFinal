@@ -16,7 +16,9 @@
                                     <th scope="col">Name</th>
                                     <th scope="col">Email</th>
                                     <th scope="col">Roles</th>
-                                    <th scope="col">Actions</th>
+                                    @can('edit-users')
+                                        <th scope="col">Actions</th>
+                                    @endcan
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -27,16 +29,18 @@
                                         <td>{{$user->email}}</td>
                                         <td>{{implode(', ', $user->roles()->get()->pluck('name')->toArray())}}</td>
                                         <td>
-                                            <a href="{{route('admin.users.edit', $user->id)}}"><button class="btn btn-primary float-left">Edit</button></a>
 
-                                            <form action="{{route('admin.users.destroy', $user)}}" method="POST" class="float-left">
+                                            @can('edit-users')
+                                                <a href="{{route('admin.users.edit', $user->id)}}"><button class="btn btn-primary float-left">Edit</button></a>
 
-                                                @csrf
-                                                {{method_field('DELETE')}}
-                                                <button type="submit" class="btn btn-warning ml-2">Delete</button>
+                                                <form action="{{route('admin.users.destroy', $user)}}" method="POST" class="float-left">
 
-                                            </form>
+                                                    @csrf
+                                                    {{method_field('DELETE')}}
+                                                    <button type="submit" class="btn btn-warning ml-2">Delete</button>
 
+                                                </form>
+                                            @endcan
 
 
                                         </td>
