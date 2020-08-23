@@ -9,6 +9,7 @@ use Exception;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\RedirectResponse;
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\View\View;
@@ -39,10 +40,16 @@ class UsersController extends Controller
      * Show the form for editing the specified resource.
      *
      * @param User $user
-     * @return Application|Factory|Response|View
+     * @return Application|Factory|RedirectResponse|View
      */
     public function edit(User $user)
     {
+        if(Gate::denies('edit-users')){
+
+            return redirect()->route('admin.users.index');
+
+        }
+
         $roles = Role::all();
         return view('admin.users.edit')->with([
             'user' => $user,
@@ -73,6 +80,12 @@ class UsersController extends Controller
      */
     public function destroy(User $user)
     {
+        if(Gate::denies('delete-users')){
+
+            return redirect()->route('admin.users.index');
+
+        }
+
         $user->roles()->detach();
         $user->delete();
 
