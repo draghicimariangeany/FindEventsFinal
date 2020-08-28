@@ -23,8 +23,170 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06c1b4b-aad4-4df7-9d49-1d5bc47a447e" name="Default Changelist" comment="finished the login,register and roles">
+      <change afterPath="$PROJECT_DIR$/resources/js/components/AddEventComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/AddEventForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X0019d2d8c4ec895bd592dbb0b4ecfce3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X021b17354c78810b3cd1e44a3df0a557.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X03d43e6f4b9f7ae4208411ad3be104af.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X0460520a495db4bc7469769d0242c5c5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X054a5bb1ca0797a7bb9f7da58cd1a9d6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X09b51cf49cc77476293d518fe19b6650.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X0bb853798620f800184d88b9627ac21f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X0c195d0b6a786998b72c806c3615d824.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X0e479001f94f358c8369875333aacbd0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X14dc77d3b8c55ee937abb7daf5a2da77.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X15274389ebaf861d9191d0070cb9341f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X15fdaa0280f393f5bab224498b52ffac.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X17670f10378aa638a8598a76d0b5f66a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X18735ffc430e05a0a4f39fd22f44b077.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X19f55e0f0649b71d7d71eb3bfc55e3b3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X1b578846f241a75b66feece88a22d0ef.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X1c17d6602ddbaa6a9f59574c7e46b40b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X1e662580428995080e345c60ddc4c6b8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X1ecccfbbcdc99c5472add8d4e40f173f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X1f4bb34e7c95636961d94aadca9968c5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X20f7f6268a75bab9dc33b6a259687c4b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X20fae329afb5aa05fd0031d1fb3b9958.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X24f6d2eee720f7e36dac8e014226f391.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X24fe6e2b3d70579405ad30d76539a5ee.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X28d3eb0a386a74b6165299da4a8cda02.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X2a6bcfc065b2523fd2a6a994a86da0ae.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X2baf5c111333aadef2bebd71e565a5b9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X2c01eca6788a2105d06beb638f8cf9c9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X2ca4c42065ee9fa5ff2a5ac8473efc5a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X2d098f9f07fba9e3e50ab43d2703089d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X30b6033796306bc5cebcc802b4648b9a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X30bfee4db4e484b5e041b2901a2cb0ef.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X37643092e07d6ceaa17775b8d5ec73b8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X3995957a3b160ec194c5a7e7013bff12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X3a5ed27f179acfe66b1e39cbd9bb0e7a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X3cc353c40bf7bccd37ae7c9bdaa047ad.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X3fcf377508b0e0f431322b8d509e7f06.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X404350f5e6e02fa754688a51f16e0d3e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X4280494d5e79f3e3108734c08186d416.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X4381d4f84fefb25b6557288363e3475f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X46afc64242c5dfd2d47326cb5e673ef6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X46e1cf1004366c889497f1d98b53b6e5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X495b2179b4741d8fa08f4b7ceab0989b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X4b0ab15ca28e15899aee77f09b2ce505.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X4cda2efb186bf3eeee29461da1fee6a8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X4e0a61dfe59ea14397e7d6ee900561f0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X4e750425962997c84bfedcd38d088ad3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X4fb206cddd8b2cb74c6f38873a3ec31f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X51319418eb1cfdd639a2748c05783e8e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X5c150e5c068937cc98d5efbae8c974cb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X5ce736a944688438bab0050ffc39e019.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X5d7d1fce2ed51ae8c34a1ca98af5b935.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X5e574a3bcd1fe78556c5f3b761efcbbb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X5fc5d2cb82593e0c4f22788291db7c12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X6008a99adcb5a23ff7233f931eb574f5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X606941adb29dcc973a4deb061356d13c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X61168aa05e67240c85a20b2eb464ce93.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X63568ff2bf6673057976361afb88f235.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X63b96ac6efc3b6853a712d50dbedbef7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X67d86f64ff377d0c85299b012f70d835.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X6dad4c87c69688b3c32ce1e732fb5d7f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X6f7cec780d5a510f6321f4613c0cff28.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X73c438af6e776445c321cf8753163f75.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X74fc3b57eea96358b0ab9f34ebed21d7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X763409669ea505856b9c2f7072aa634e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X80da74b767fcabd48dc271173cb419fb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X82d92ed13ffad26a963d5a5d9f13a29c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X839e1eb2ef3d295d4b36e8c2594cfc71.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X83ce90886ef657bee78dc9d59ac3f08a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X83fcd784a35aa6973b76b6f4c6800b52.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X85995a332ae4cae5d39c80a460ca5cc6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X8634c9eb16087f642a92e75a602173e2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X868468eadad638e6e78582ba9ac42689.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X873ef3daaac384a809fb7ea971f3ac5c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X87937b25f3e667164bcea5a910b4beb5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X87ad8de67e9a25136f286d89852e089a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X8c8d8686b8360b312184a0a7c688b6b9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X8eff869273e7461490779a7c24aa51be.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X91b39615fac58236f261975fe3b70418.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X92aabb98b2bf283bf5b79d1a6fddf731.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X96ddc219efaa78f22c5e7813f33cf7aa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X9a342233dc538b48684f30b2b8a2a325.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X9a54af23ee87caa82d2f59ee5185de66.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X9eb99ad644d63a62e49e0e2badba5423.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X9f43cff976d4eda274742ecf2c049933.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X9f997a03f233e4b8b6ae0c4b3ede120d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xa2d903e6153458b16f098809b51c156c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xa2fc133f2341071df0abd2e424839ae9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xa64181d44fcacd4e9ea272e49dba4ea5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xa6e9df0583c002501cc07f7233522b7e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xa75a3f13a626320854cc50a4bfd44b9d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xa85935e42363df5515360d7260533467.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xa8f944e39e01cf7d56b7fa6c1ef8a6ea.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xab2fdceb054ee770ae103e2860c12e3f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xae29dad48dd9c354903c79695ed1f346.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xafbdaa3c94fc68915375244d923792fb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xb11d9c0aefeac677767191762d75e028.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xba22e40691ebdbc60956f9c3e5030325.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xbadd5c944c6c815880ffb809ed9e0a77.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xbb0d596d7d2a32656dd0766dd87750b7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xbbc3917d70e42f69c30e3ec67430630a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xbbe56e13bd083b0ea0a6ce3cd687f41c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xbde6da69895447f1524c8f8f801e9f90.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xbdf100f9075f8a7c572511cf4cec370e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xbdfe1ee64112dc1dd8880951e0750b6b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xbe3389634317d62c48b6ced346df586d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xbf5e2a8fc43463557d57aec9f191a513.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xbf7af4ec4077ebd0b63368fe3c463cf0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xbfe5d4bb06f00e8dc64f6992787a75f5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xc05800da2ce723811ea5bb7fcc89d3bc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xc4a3323515535d0912662e7cf02468c4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xc52ede73a354cedc8359b1ebc0b2fcfd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xc69cc3454147d2c001228fe767d69188.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xc7bca353248e91f786714a95099b1446.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xc815dc0691ca79ae728b83f70f479fe4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xc93759fd068d356b6276fe3abdb7f351.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xc97580e8c36a915b50a6ef0add223a03.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xca07c366d64f08f7fddf8eecf675733b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xcb4de817cfa20fa63ec0a83e2d53b614.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xcba71445f8a641875f0dcdc5c3cb68fd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xcf444014e16c4407dafbadee5d58358c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xd1cc6f37440bd4ee53cc9c3c81175e6d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xd455c07f3bcdffd2e3cf4c649045fcd5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xd71e40f1d4338c050695d3919610104b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xd7bff3031f1b8739f07919c23e2e3c51.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xd7d3e0259ab9ed4e77b66eb8c70b88f1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xd8e914020d163a92ab2c8c8609e10cc7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xd920224a67043b03c5b0ed2858736c4d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xd94c862e2acacff19bdbe76b47445eb8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xdd7a2bd94601e877b9ddcfd7b3082a9c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xdde7e940b2d27705c5ab7ba54b0e1c50.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xe07f54e70a370ea2b6eb14790774e6b3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xe1d4a7ee6b22e1f893550265bb031f1b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xe2781a6789994929715d387f1bc83596.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xe394604925de0aa27a6f972997db3392.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xe4dc3a9fa5ef6460456d3f061bb3c31f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xe531c1d88872fc52d3e579dcd4955c3f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xe53ec759432e59d28484bcdf5b8b8996.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xe773f6c4d3041efa77d33f2c6dbd55d3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xead845b1ac9cb84e5e0492eb0578e777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xecba55bdac6ea509cfc9e40366f85c74.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xed91596a265334b111a6697e907fc2c4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xedcb12dc9a0f622295f20c1ce7c11b3f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xeed70afca6866206973c6d3e696e2e04.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xef8bce42f18a23ab173ff233642ad154.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xefae56e4de3d9ceda58a3f12c2e89462.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xf17fbd88b1eaf68d79a43174b2b2aa3a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xf29b7e91ee87f4f8fe4969eb437dbf34.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xf344de23522ca31cd5a9642f151fd3b4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xf54a7dce76e206fd41af04864829390f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xf65582fdb1da4e1cc232d6427c801d71.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xf6f08dfcc320b73e3c93c88af2f7a519.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xf6fea4a0f61afcd1fe6797ae99583ede.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xf818f79d79abac925710c2a1d74f9867.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xfe3f4acad71463e17f0084ad4f16a849.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +314,14 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-dompdf" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gTVKVVvQ9pPeH7dO3sGR7pSCOq" />
@@ -167,16 +337,18 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Laravel-Projects\FindEvents\resources\js\components" />
       <recent name="C:\Laravel-Projects\FindEvents\resources\views\admin\users" />
     </key>
   </component>
@@ -281,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598204053197</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="finished the login,register and roles">
+      <created>1598645100980</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598645100980</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +490,8 @@
     <MESSAGE value="&#10;i added gates for admin in edit and delete&#10;i added the gates for general route" />
     <MESSAGE value="&#10;i added gates for admin in edit and delete&#10;i added the gates for general route&#10;i hided the links for others roles" />
     <MESSAGE value="i added user role for new users" />
-    <option name="LAST_COMMIT_MESSAGE" value="i added user role for new users" />
+    <MESSAGE value="finished the login,register and roles" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished the login,register and roles" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598264938121">

@@ -14,7 +14,9 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    <div id="app">
+                        <add-event-component></add-event-component>
+                    </div>
                 </div>
             </div>
         </div>
