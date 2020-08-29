@@ -1,9 +1,9 @@
 <template>
     <div>
         <gmap-map   :center="centerMap"
-                    :zoom="7"
+                    :zoom="centerZoom"
                     style="width: 500px; height: 300px"
-                    @click="onClickMap"
+                    @rightclick="onClickMap"
         >
         <GmapMarker ref="myMarker"
                     :position="currentPositionMarker"
@@ -63,6 +63,7 @@ export default {
             },
             model: '',
             myJson : MY_JSON,
+            centerZoom : 7,
             selectedCity: {
                 lat: 0.0,
                 lng: 0.0
@@ -104,13 +105,18 @@ export default {
                 lng: location.latLng.lng(),
             };
 
-            this.marker = this.coordinates;
+
+                this.marker = this.coordinates;
+
+
 
 
         },
         selectEvent: function () {
             this.centerMap.lat = parseFloat(this.selectedCity.lat);
             this.centerMap.lng = parseFloat(this.selectedCity.lng);
+
+            this.centerZoom = 8;
         },
         geolocation : function() {
             navigator.geolocation.getCurrentPosition((position) => {
