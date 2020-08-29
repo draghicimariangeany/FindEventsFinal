@@ -32,7 +32,8 @@ Vue.use(IconsPlugin);
 
 Vue.use(VueGoogleMaps, {
     load: {
-        key: 'AIzaSyCDZdIY8O6dQYVEEnF5Zmgcw8uCiMpsEJI'
+        key: 'AIzaSyCDZdIY8O6dQYVEEnF5Zmgcw8uCiMpsEJI',
+        libraries: 'places'
     }
 });
 /**
