@@ -1,35 +1,48 @@
 <template>
     <div>
-        <gmap-map   :center="{lat:1.38, lng:103.8}"
+        <gmap-map   :center="centerMap"
                     :zoom="7"
                     style="width: 500px; height: 300px"
                     @click="onClickMap"
         >
         <GmapMarker ref="myMarker"
-                    :position="google && new google.maps.LatLng(1.38, 103.8)"
+                    :position="currentPositionMarker"
                     @click="onClickMarker"
                     :clickable="true"
         />
-            <GmapMarker ref="myMarker"
-                        :position="marker"
-                        @click="onClickMarker"
-                        :clickable="true"
-            />
+
+        <gmap-custom-marker :marker="marker" @click.native="onClickMarker">
+            <img src="images/eventIcon.png" style="max-height: 30px; max-width: 30px"/>
+        </gmap-custom-marker>
 
 
         </gmap-map>
 
-        <h3 class="pt-3">Select a city to go there:</h3>
+<!--        <div>-->
+<!--            <h1>My Weather App</h1>-->
+<!--            <button v-on:click="getWeatherData">Get Weather Data</button>-->
+<!--            <div v-for="weatherData in weatherDataList" :key="weatherData.id">-->
+<!--                <div>-->
+<!--                    <div>-->
+<!--                        <span>{{weatherData.city}}</span>-->
+<!--                    </div>-->
+<!--                    <div>-->
+<!--                        <span>{{weatherData.lat}}</span>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
 
-        <select class="form-control" @change="changeCity($event)">
-            <option value="" selected disabled>Choose</option>
-            <option v-for="(p, city) in myJson" :key="city" :value="p.City">{{ p.City }}</option>
-            <span>{{city.lng}}</span>
-            <span>{{city.lat}}</span>
-        </select>
-        <br><br>
-
+        <div class="pt-3">
+            <h3>Select a city to go there</h3>
+            <select @change="selectEvent" v-model="selectedCity">
+                <option v-for="city in myJson" :value="city">{{city.city}}</option>
+            </select>
+            <hr>
+            Map Coordinates: Latitude: {{selectedCity.lat}}, Longitude {{selectedCity.lng}}
+        </div>
         <add-event-form :myCoordinates="coordinates"></add-event-form>
+
     </div>
 
 
@@ -50,13 +63,30 @@ export default {
             },
             model: '',
             myJson : MY_JSON,
-            selectedCity: null,
-            city: {lat: 0.0, lng:0.0}
+            selectedCity: {
+                lat: 0.0,
+                lng: 0.0
+            },
+            centerMap: {
+                lat: 10,
+                lng: 10
+            },
+            currentPositionMarker: {
+                lat: 0.0,
+                lng: 0.0
+            }
+
         }
     },
 
     computed: {
-        google: gmapApi
+        google: gmapApi,
+        options(){
+            return Object.keys(this.myJson).map(k => {
+                let o = this.myJson[k]
+                return `${o.city} ${o.lat} ${o.lng}`
+            })
+        }
     },
 
     methods: {
@@ -76,16 +106,33 @@ export default {
 
             this.marker = this.coordinates;
 
+
         },
-        changeCity (event) {
-            this.selectedCity = event.target.options[event.target.options.selectedIndex].text
-            console.log(event.target.options[event.target.options.selectedIndex]);
+        selectEvent: function () {
+            this.centerMap.lat = parseFloat(this.selectedCity.lat);
+            this.centerMap.lng = parseFloat(this.selectedCity.lng);
+        },
+        geolocation : function() {
+            navigator.geolocation.getCurrentPosition((position) => {
+                this.centerMap = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude
+                };
+
+                this.currentPositionMarker.lat = position.coords.latitude;
+                this.currentPositionMarker.lng = position.coords.longitude;
+            });
         }
+
     },
     components: {
         'gmap-custom-marker': GmapCustomMarker,
         AddEventForm,
 
+
+    },
+    mounted : function() {
+        this.geolocation();
     }
 
 
