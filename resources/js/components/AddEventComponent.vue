@@ -2,7 +2,7 @@
     <div>
         <gmap-map   :center="centerMap"
                     :zoom="centerZoom"
-                    style="width: 500px; height: 300px"
+                    style="width: 100%; height: 450px"
                     @rightclick="onClickMap"
         >
         <GmapMarker ref="myMarker"
@@ -18,33 +18,19 @@
 
         </gmap-map>
 
-<!--        <div>-->
-<!--            <h1>My Weather App</h1>-->
-<!--            <button v-on:click="getWeatherData">Get Weather Data</button>-->
-<!--            <div v-for="weatherData in weatherDataList" :key="weatherData.id">-->
-<!--                <div>-->
-<!--                    <div>-->
-<!--                        <span>{{weatherData.city}}</span>-->
-<!--                    </div>-->
-<!--                    <div>-->
-<!--                        <span>{{weatherData.lat}}</span>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+        <div class="form-group">
+            <label class="h5 pt-3">Select a city to go there:</label>
+                <select class="form-control shadow p-2 mb-3" @change="selectEvent" v-model="selectedCity">
+                    <option v-for="city in myJson" :value="city">{{city.city}}</option>
+                </select>
 
-        <div class="pt-3">
-            <h3>Select a city to go there</h3>
-            <select @change="selectEvent" v-model="selectedCity">
-                <option v-for="city in myJson" :value="city">{{city.city}}</option>
-            </select>
-            <hr>
-            Map Coordinates: Latitude: {{selectedCity.lat}}, Longitude {{selectedCity.lng}}
         </div>
+
+
         <add-event-form :myCoordinates="coordinates"></add-event-form>
 
-    </div>
 
+    </div>
 
 </template>
 <script>
@@ -105,11 +91,7 @@ export default {
                 lng: location.latLng.lng(),
             };
 
-
                 this.marker = this.coordinates;
-
-
-
 
         },
         selectEvent: function () {
