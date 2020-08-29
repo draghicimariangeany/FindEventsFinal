@@ -17,6 +17,7 @@ window.Vue = require('vue');
  */
 import * as VueGoogleMaps from 'vue2-google-maps'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import Vuelidate from 'vuelidate'
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
@@ -25,6 +26,7 @@ Vue.component('add-event-form', require('./components/AddEventForm.vue').default
 
 
 
+Vue.use(Vuelidate)
 // Install BootstrapVue
 Vue.use(BootstrapVue);
 // Optionally install the BootstrapVue icon components plugin

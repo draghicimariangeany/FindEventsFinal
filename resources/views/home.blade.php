@@ -2,7 +2,10 @@
 
 @section('content')
 
-    <div class="row justify-content-center">
+    <div class="row">
+        <div class="col-md-4">
+
+        </div>
         <div class="col-md-8">
             <div class="card w-100">
                 <div class="card-header">Add event</div>
