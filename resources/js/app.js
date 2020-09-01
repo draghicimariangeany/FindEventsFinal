@@ -13,14 +13,31 @@ window.Vue = require('vue');
  * Vue components. It will recursively scan this directory for the Vue
  * components and automatically register them with their "basename".
  *
- * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
+ * Eg. ./components/AddEventComponent.vue -> <example-component></example-component>
  */
-
+import * as VueGoogleMaps from 'vue2-google-maps'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import Vuelidate from 'vuelidate'
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('add-event-component', require('./components/AddEventComponent.vue').default);
+Vue.component('add-event-form', require('./components/AddEventForm.vue').default);
 
+
+
+Vue.use(Vuelidate)
+// Install BootstrapVue
+Vue.use(BootstrapVue);
+// Optionally install the BootstrapVue icon components plugin
+Vue.use(IconsPlugin);
+
+Vue.use(VueGoogleMaps, {
+    load: {
+        key: 'AIzaSyCDZdIY8O6dQYVEEnF5Zmgcw8uCiMpsEJI',
+        libraries: 'places'
+    }
+});
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

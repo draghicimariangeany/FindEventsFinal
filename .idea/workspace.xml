@@ -22,9 +22,39 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b06c1b4b-aad4-4df7-9d49-1d5bc47a447e" name="Default Changelist" comment="finished the login,register and roles">
+    <list default="true" id="b06c1b4b-aad4-4df7-9d49-1d5bc47a447e" name="Default Changelist" comment="i added the map with get coordinates by click">
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X0aefa5be204b6b2d21abf4f9c3e7d98d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X1a6ed3aaf6f144e8987e0415ef36baec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X2b0346b7c4e53cbe43a86c69e28685a0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X2cfa1030ec80302938e472656aca0804.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X4028353c0493585cb4d13b0e95d67696.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X44d491db25bb754c664f23b4b3752144.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X55fa72867bb37f5c88183288f910e62a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X5895a88ddaaf92d71a98bb37f47fbd57.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X5b31bc82ef41fe9e18911d969ad26d39.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X5d6d5eff6ff3196d2ffc659bbf944c34.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X67120ccae0da7a2502e2c9e06ddc577c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X78e4976d0d332349ded644a46ef267bd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X7bf3ed1fe9667f313e524bf8eeb9bae1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X8c6dc106d5f6a2ce9d7511340a82a5ba.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/X9d36512fb3616251217a57c01bfb2723.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xa072793422176a571849d9a598651c08.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xad9d8b02590cebafd13dffd9cfadbdb9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xafee1d9410c6fd6765366b98244d167d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xb5d40edfb1822e42aed63da9c829b0fa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xbcb1c61b06de2a316dabdda61a5eb053.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xc5228b08f416a288ff8075d93193e7bb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xc5380c1e5a238ddc725d40a2b34e91fe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xcc273f5112f3c6e28d74fc289dfc9a95.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xcf1a665a2c0a10fdf3204e62c74008ac.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xe59efd6ae9066b640ae6992cca504b83.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xf12ed885d658fba1ff2fca699f80bfa0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xf3bf26212e922ae83d1378565610864d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xf680920645a4f17ff1452184ac0822f3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xf7ff8d909545d956703137df01a05fe1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/Xf979770b189270094dec5fbe85a32cb6.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +182,14 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-dompdf" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gTVKVVvQ9pPeH7dO3sGR7pSCOq" />
@@ -167,16 +205,23 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Laravel-Projects\FindEvents\public\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Laravel-Projects\FindEvents\public\images" />
+      <recent name="C:\Laravel-Projects\FindEvents\public\json" />
+      <recent name="C:\Laravel-Projects\FindEvents\resources\js\components" />
       <recent name="C:\Laravel-Projects\FindEvents\resources\views\admin\users" />
     </key>
   </component>
@@ -203,6 +248,8 @@
       <workItem from="1598264920120" duration="18000" />
       <workItem from="1598440931885" duration="702000" />
       <workItem from="1598441988027" duration="1289000" />
+      <workItem from="1598711398562" duration="25644000" />
+      <workItem from="1598938330789" duration="229000" />
     </task>
     <task id="LOCAL-00001" summary="Am sters rutele default">
       <created>1598138970033</created>
@@ -281,7 +328,56 @@
       <option name="project" value="LOCAL" />
       <updated>1598204053197</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="finished the login,register and roles">
+      <created>1598645100980</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598645100980</updated>
+    </task>
+    <task id="LOCAL-00013" summary="i added the map">
+      <created>1598658065365</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598658065365</updated>
+    </task>
+    <task id="LOCAL-00014" summary="i added the map">
+      <created>1598669089178</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598669089178</updated>
+    </task>
+    <task id="LOCAL-00015" summary="i added the map with get coordinates by click">
+      <created>1598717219364</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598717219365</updated>
+    </task>
+    <task id="LOCAL-00016" summary="i added the map with get coordinates by click">
+      <created>1598718273026</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1598718273026</updated>
+    </task>
+    <task id="LOCAL-00017" summary="i added the map with get coordinates by click">
+      <created>1598731311628</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1598731311628</updated>
+    </task>
+    <task id="LOCAL-00018" summary="i added the map with get coordinates by click">
+      <created>1598736960213</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1598736960213</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +407,10 @@
     <MESSAGE value="&#10;i added gates for admin in edit and delete&#10;i added the gates for general route" />
     <MESSAGE value="&#10;i added gates for admin in edit and delete&#10;i added the gates for general route&#10;i hided the links for others roles" />
     <MESSAGE value="i added user role for new users" />
-    <option name="LAST_COMMIT_MESSAGE" value="i added user role for new users" />
+    <MESSAGE value="finished the login,register and roles" />
+    <MESSAGE value="i added the map" />
+    <MESSAGE value="i added the map with get coordinates by click" />
+    <option name="LAST_COMMIT_MESSAGE" value="i added the map with get coordinates by click" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598264938121">
@@ -338,9 +437,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1598195540457" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598442884275">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1598721671100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598442884275" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1598721671100" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598938368228">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598938368228" />
   </component>
 </project>
